@@ -44,3 +44,23 @@ transition: 0.4s;
   text-decoration-color: rgba(27, 183, 255, 1);
   text-decoration-thickness: 8px;
 }
+@media only screen and (max-width: 980px) {
+.contentAbout{
+  flex-direction: column;
+}
+.imgAbout{
+  display: none;
+}
+.contentAboutRight{
+  width: 320px;
+  height: 100%;
+}
+.contentAboutMain{
+  background: none;
+  color: rgb(255, 255, 255);
+  -webkit-box-shadow:0px 10px 39px 5px rgb(27, 31, 36);
+-moz-box-shadow: 0px 10px 39px 5px rgb(27, 31, 36);
+box-shadow: 0px 10px 39px 5px rgb(27, 31, 36); 
+}
+}
+
