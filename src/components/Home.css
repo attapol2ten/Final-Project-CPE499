@@ -84,3 +84,19 @@ ul {
   box-shadow: 0px 10px 39px 5px rgba(27, 183, 255, 0.22);
   transition: 0.4s;
 }
+@media only screen and (max-width: 980px) {
+  .contentLeft{
+    flex-direction: column;
+    width: 400px;
+  }
+  .h1ContentLeft {
+    font-size: 4rem;
+  }
+  .textContent {
+    width: 85%;
+  }
+  ul {
+   flex-direction: row;
+
+  }
+}
