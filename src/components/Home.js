@@ -15,8 +15,7 @@ export const Home = () => {
           I'm <span className="spanContentLeft">Attapol Kerdlamjiak</span>
         </h1>
         <p className="textContent">
-          Hello, my name is Attapol i'm year 4 Major Computer Engineering
-          Rangsit University.This is Portfolio Website Final Project by React
+          Hello, my name is Attapol. I’m a senior student of Rangsit University. My major is in Computer Engineering.This is Portfolio Website Final Project by React
         </p>
         <ul>
           <li>
