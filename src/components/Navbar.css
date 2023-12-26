@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Sarabun&display=swap");
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+.navCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navLeft h1 {
+  color: white;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+}
+.ulNavbar li a {
+  text-decoration: none;
+  margin: 0 4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.colorNav1 {
+  color: rgb(27, 184, 255);
+}
+.colorNav2,
+.colorNav3 {
+  color: rgb(255, 255, 255);
+}
+.spanNavbar {
+  color: rgb(27, 184, 255);
+  margin-left: 0.5rem;
+}
+ul {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  padding: 0;
+}
+.button {
+  border: 2px solid rgb(27, 184, 255);
+  border-radius: 1rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: rgb(27, 184, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: rgb(27, 184, 255);
+  color: rgb(27, 30, 35);
+  -webkit-box-shadow: 0px 10px 39px 5px rgba(27, 183, 255, 0.22);
+  -moz-box-shadow: 0px 10px 39px 5px rgba(27, 183, 255, 0.22);
+  box-shadow: 0px 10px 39px 5px rgba(27, 183, 255, 0.22);
+  transition: 0.4s;
+}
